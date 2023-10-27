@@ -1,0 +1,40 @@
+==== TENTANG DOM ==== 
+
+
+DOM -> DOCUMENT OBJECT MODEL
+
+Apa itu DOM ?
+
+* Document : Berisikan isi dari bagian-bagian website
+* Object : Berisikan object seperti tipe data yang ada pada JS
+* Model : Representasi 
+
+DOM -> Representasi elemen HTML yang berada dalam dokumen untuk nantinya akan dijadikan sebagai object. "Pak Sandhika".
+Representasi struktur pada elemen HTML ini nantinya akan disebut sebagai DOM Tree.
+
+Didalam object document berisikan DOM Tree.
+
+Hirarki paling tinggi pada DOM 
+WINDOW : BERISIKAN DOCUMENT, HISTORY, LOCATION
+DOCUMENT
+
+DOM Tree : Representasi elemen-elemen HTML yang ada pada browser yang berbentuk tree atau pohon.
+
+1 simpul atau 1 struktur disebut node.
+
+Tiap-tiap node memiliki tipe seperti :
+1. Jika node itu berisikan HTML disebut elemen
+2. Jika node itu berisikan atribut disebut attribute
+3. Jika node itu berisikan text disebut text
+
+Apa itu NodeList dan HTMLCollection ?
+
+NodeList : Jika memilih lebih dari 1 node itu disebut nodelist tidak peduli tipe node itu
+HTMLCollection : Jika memilih elemen milik HTML 
+
+Struktur Hirarki DOM 
+1. Root Node : Node yang menjadi sumber dari semua node lain pada DOM
+2. Parent Node : Node yang berada pada 1 tingkat diatas node lain
+3. Child Node : Node yang berada 1 tingkat dibawah node lain
+
+

@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* .container h1 {
+  color: white;
+} */
+
+
+.container button {
+  margin-top: 3rem;
+  margin-right: 2rem;
+}
+
+.slider {
+  margin-top: 4rem;
+}
+
+.sli-merah, .sli-hijau, .sli-biru, .sli-alpha {
+  border: 2px solid white;
+  margin: 1rem 1rem;
+  width: min-content;
+  padding: 1.2rem;
+  display: inline-block;
+}
+
+.container .kotak {
+  width: 2rem;
+  height: 2rem;
+  margin: 1rem auto;
+}
+
+.merah {
+  background-color: red;
+}
+
+.hijau {
+  background-color: green;
+}
+
+.biru {
+  background-color: blue;
+}
+
+.alpha p {
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.merah,
+.hijau,
+.biru {
+  border-radius: 50%;
+}
